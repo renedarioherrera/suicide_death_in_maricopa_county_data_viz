@@ -1,0 +1,46 @@
+---
+title: "Presentation for Senior Data Visualization Epidemiologist Interview"
+author: "René Dario Herrera"
+date: "9 July 2021"
+output: 
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# set up 
+# packages 
+library(tidyverse)
+
+all_cause_mortality <- read_rds("../data/tidy/plot_all_cause_mortality.rds")
+plot_death_crude_rates_race <- read_rds("../data/tidy/plot_suicide_rate_by_race.rds")
+table_death_crude_rates_sex <- read_rds("../data/tidy/table_suicide_rate_by_sex.rds")
+plot_suicide_death_rate_by_age <- read_rds("../data/tidy/plot_suicide_rate_by_age.rds")
+```
+
+## All Cause Mortality
+
+```{r}
+all_cause_mortality
+```
+
+## suicide Death rate by race
+
+```{r}
+plot_death_crude_rates_race
+```
+
+## suicde death rate by sex 
+
+```{r}
+table_death_crude_rates_sex
+```
+
+## suicide death rate by age group 
+
+```{r}
+plot_suicide_death_rate_by_age
+```

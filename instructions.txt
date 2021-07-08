@@ -1,0 +1,5 @@
+Maricopa County Department of Public Health is applying for a new grant that will focus on building upon and increasing resources and services to reduce suicide deaths now and in the future.  The funding will also support improvements for populations experiencing a disproportionate burden of suicides.  
+
+The team applying for this grant has requested support to help determine which groups of individuals are most at risk for dying by suicide and will be using this information to explain why it is important that Maricopa County Public Health receives this funding.  
+
+Please review the dataset attached for deaths by suicide in Maricopa County and prepare at least 2 visualizations (graphs, figures, etc.) using these data.  If any publicly available data is used, please reference the source. 
